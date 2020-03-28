@@ -7,6 +7,7 @@
     <body>
         
         <div id='container'>
+            <img src='alien.gif' class='alien';>
             <div id='hero'></div>
             <div id='enemies'></div>
             <div id='enemies2'></div>
@@ -146,6 +147,7 @@
 			}
         }
         setInterval(gameLoop,30);
+
         
         document.onkeydown = function(a){
             if(a.keyCode==37 && hero.x>10){
