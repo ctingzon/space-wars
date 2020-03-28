@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{
+    background-color:black;
+}
+ #container{
+    background: url('space.gif');
+    width:1000px;
+    height:550px;
+}
+#hero{
+    background: url('plane.gif');
+    background-position: -85px -180px;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.enemy1{
+    background: url('plane.gif');
+    background-position: -30px -10px;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.enemy2{
+    background: url('plane.gif');
+    background-position: -86px -86px;
+    width:20px;
+    height:25px;
+    position:absolute;
+}
+.bullet{
+    background: url('plane.gif');
+    background-position: -185px -400px;
+    width:18px;
+    height:18px;
+    position:absolute;
+}
+#score{
+    width:80px;
+    position:absolute;
+    border:10px solid rgb(79, 209, 47);
+    top:20px;
+    left:800px;
+    background-color:rgb(190, 192, 186);
+    padding:10px;
+    font-size:30px;
+}
