@@ -11,6 +11,11 @@ body{
     width:1000px;
     height:550px;
 }
+.alien{
+    position: absolute;
+    top: 60px;
+    right: 8px;
+}
 #hero{
     background: url('plane.gif');
     background-position: -85px -180px;
